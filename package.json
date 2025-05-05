@@ -1,17 +1,17 @@
 {
-  "name": "wp-github-plugin",
-  "version": "1.0.1",
-  "description": "Update your plugins via github",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "bin": {
-    "wp-github-plugin": "./index.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
+	"name": "wp-github-plugin",
+	"version": "1.0.2",
+	"description": "Update your plugins via github",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"bin": {
+		"wp-github-plugin": "./index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^29.7.0"
+	}
 }
