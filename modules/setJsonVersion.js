@@ -1,4 +1,5 @@
-import fs from 'fs';
+const fs = require('fs');
+const path = require('path');
 
 function setJsonVersion(fileName, version) {
 	const filePath = path.join(process.cwd(), fileName);
@@ -10,4 +11,4 @@ function setJsonVersion(fileName, version) {
 	fs.writeFileSync(filePath, JSON.stringify(json, null, 2));
 }
 
-export default setJsonVersion;
+module.exports = setJsonVersion;

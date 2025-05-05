@@ -1,4 +1,5 @@
-import { execSync } from 'child_process';
+const fs = require('fs');
+const { execSync } = require('child_process');
 
 function tagAndPush(version) {
 	try {
@@ -28,4 +29,4 @@ function tagAndPush(version) {
 	}
 }
 
-export default tagAndPush;
+module.exports = tagAndPush;

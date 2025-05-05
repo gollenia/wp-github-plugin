@@ -1,4 +1,4 @@
-import fs from 'fs';
+const fs = require('fs');
 
 function extractPluginVersion(filepath) {
 	if (!fs.existsSync(filepath)) {
@@ -17,4 +17,4 @@ function extractPluginVersion(filepath) {
 	return match[1].trim();
 }
 
-export default extractPluginVersion;
+module.exports = extractPluginVersion;

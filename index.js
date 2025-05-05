@@ -1,8 +1,10 @@
 #!/usr/bin/env node
-import path from 'path';
-import extractPluginVersion from './modules/extractPluginVersion';
-import setJsonVersion from './modules/setJsonVersion';
-import tagAndPush from './modules/tagAndPush';
+const path = require('path');
+const fs = require('fs');
+const extractPluginVersion = require('./modules/extractPluginVersion.js');
+const setJsonVersion = require('./modules/setJsonVersion.js');
+const { execSync } = require('child_process');
+const tagAndPush = require('./modules/tagAndPush.js');
 
 function safeExecute(fn, successMessage) {
 	try {
