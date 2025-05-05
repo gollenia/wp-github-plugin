@@ -1,6 +1,6 @@
 {
   "name": "wp-github-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Update your plugins via github",
   "main": "index.js",
   "scripts": {
