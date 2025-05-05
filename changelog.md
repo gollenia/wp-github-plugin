@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [1.0.3] – 2025-05-05
+
+### Fixed
+
+-   Tests work again
+-   whole thing works again
+
 ## [1.0.2] – 2025-05-05
 
 ### Added
