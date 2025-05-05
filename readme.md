@@ -8,11 +8,11 @@ Perfect for WordPress plugins that update directly via GitHub (e.g. with your ow
 
 ## Features
 
-- Extracts version from `plugin.php`
-- Updates `package.json` and `composer.json` to match
-- Automatically creates a `vX.X.X` Git tag
-- Pushes the tag to GitHub
-- Easy CLI usage with `npx`
+-   Extracts version from `plugin.php` or `style.css`
+-   Updates `package.json` and `composer.json` to match
+-   Automatically creates a `vX.X.X` Git tag
+-   Pushes the tag to GitHub
+-   Easy CLI usage with `npx`
 
 ---
 
@@ -41,7 +41,9 @@ and add to your package.json the following lines (replacing plugin.php with your
 ```
 
 ## Requirements
+
 Your Wordpress plugin header must include a version line like this:
+
 ```php
 /*
  * Plugin Name: My Plugin
@@ -51,6 +53,7 @@ Your Wordpress plugin header must include a version line like this:
 ```
 
 ## Testing
+
 Tests are located in the tests/ folder. To run them:
 
 ```bash
