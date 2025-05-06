@@ -1,6 +1,6 @@
 {
 	"name": "wp-github-plugin",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Update your plugins via github",
 	"main": "index.js",
 	"scripts": {
@@ -10,7 +10,6 @@
 		"wp-github-plugin": "./index.js"
 	},
 	"author": "",
-	"type": "module",
 	"license": "ISC",
 	"devDependencies": {
 		"jest": "^29.7.0"
